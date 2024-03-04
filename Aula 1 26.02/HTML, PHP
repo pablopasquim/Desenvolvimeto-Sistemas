@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a>Contato</a>
+    <a>Formulário</a>
+    <a>Home</a>
+    <h1>Página Inicial</h1>
+
+    <p style="background-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vitae! Expedita labore dolor animi officiis? Neque maxime veniam ipsam doloribus fuga accusantium modi sunt. Suscipit sit illum ad voluptatibus id magni, odit molestiae autem, eveniet culpa consectetur laborum odio laudantium inventore. Architecto asperiores reprehenderit perferendis minima dolor minus sint tempore possimus laboriosam quam assumenda numquam maiores nisi nostrum commodi nulla ducimus voluptate quos, sunt eveniet beatae molestias iste? Autem accusantium nostrum eligendi asperiores corrupti laudantium minus, minima non nobis sit quisquam ducimus fugiat, aspernatur dicta aliquam culpa qui atque voluptates adipisci omnis sint quia, nesciunt modi illum. Non ipsam eligendi autem molestiae et officiis laboriosam. Dolor quaerat corrupti, excepturi delectus non nihil aut eaque ut voluptatum debitis dolorum dolores illo ipsa commodi? Quam ducimus eaque blanditiis non quisquam eos, harum sed vitae libero tempore reprehenderit pariatur doloribus officia! Molestiae, ea autem. Culpa eveniet ducimus vitae cupiditate libero sequi illo hic nulla commodi autem dolor repellat possimus, totam ipsam accusantium. Maxime architecto cupiditate deleniti eaque, repudiandae ex repellendus expedita nostrum fugiat beatae nemo in rem aliquid impedit velit exercitationem vero. At magni temporibus deserunt architecto hic numquam quam voluptatibus consequuntur ad ipsum, enim dolores. Dignissimos facere laudantium, similique debitis minima libero? Delectus laudantium iusto libero rerum ad odit, eos vero accusantium ullam similique sed reprehenderit consectetur repellat expedita obcaecati veritatis, consequatur impedit est? Obcaecati sapiente id quibusdam laboriosam fugiat maxime minus aut ducimus amet eligendi qui dolorum tempora magni doloremque eum exercitationem dolores, cupiditate vel iste. Doloribus repellat similique repudiandae nostrum, recusandae ratione ducimus corrupti earum dolorum inventore quo soluta fugiat, ab eaque impedit modi libero. Magnam nisi possimus corrupti error culpa ullam consequatur aspernatur totam officia vitae commodi, quae ab minus excepturi autem corporis eius suscipit natus animi tenetur asperiores dolor iusto sit vel? Similique iure ipsam necessitatibus molestiae? Asperiores.</p>
+
+    <?php
+
+        $nome = "Maria";
+        $idade = "19";
+        $cidade = "Irati";
+        $faculdade = true;
+        
+        echo "<h2>Olá Mundo</h2>";
+        echo "Nome: " . $nome . " - <br>";
+        echo "Idade: " . $idade;
+    ?> 
+</body>
+</html>
