@@ -1,0 +1,6 @@
+<?php
+    $nome = "Lucas";
+
+    echo "Qual éseu nome?" . "- <br>";
+    echo "Meu nome é: " . $nome;
+?>
