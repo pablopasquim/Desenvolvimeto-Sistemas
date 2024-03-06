@@ -1,0 +1,13 @@
+<?php
+    echo "Quanto você ganha por hora?<br>"; 
+    $valorHora = 10;
+    echo "Eu ganho R$ " . $valorHora . " reais por hora<br><br>";
+    echo "E quantas horas você trabalho por dia?<br>";
+    $horas = 8;
+    echo "Eu trabalho " . $horas . " horas por dia<br><br>";
+    $calculo = $valorHora * $horas;
+    $total = $calculo * 30;
+    echo "Quanto você ganha ao total no mês?<br>";
+    echo "Eu ganho R$ " . $total . " reais por mês";
+    
+?>
