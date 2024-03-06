@@ -1,0 +1,8 @@
+<?php
+    
+    $base = 2;
+    $altura = 4;
+    $área = $base * $altura;
+    echo "O cálculo da área do quadrado é: " . $área * 2;
+    
+?>
