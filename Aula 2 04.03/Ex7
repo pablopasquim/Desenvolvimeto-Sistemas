@@ -1,0 +1,7 @@
+<?php
+    echo "Escreva uma temperatura em Fahrenheit<br>";
+    $F = 90;
+    echo $F . "<br>";
+    $C = 5 * ($F - 32) / 9;
+    echo "A temperatura em Celsius é: " . $C;
+?>
