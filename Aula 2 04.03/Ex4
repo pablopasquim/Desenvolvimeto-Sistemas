@@ -1,0 +1,7 @@
+<?php
+    
+    $metro = 1;
+    $conversão = $metro * 100;
+    echo "O Resultado é: " . $conversão . "cm";
+    
+?>
