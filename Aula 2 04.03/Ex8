@@ -4,10 +4,10 @@
     $consumoPorLitro = 12; 
     $precoCombustivel = 4.50; 
 
-    // Calcula os litros consumidos
+   
     $litrosConsumidos = $distancia / $consumoPorLitro;
 
-    // Calcula o custo total da viagem
+   
     $custoTotalViagem = $litrosConsumidos * $precoCombustivel;
 
     // Exibe os resultados
