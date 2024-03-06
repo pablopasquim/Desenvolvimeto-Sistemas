@@ -1,0 +1,19 @@
+<?php
+   
+    $distancia = 300;
+    $consumoPorLitro = 12; 
+    $precoCombustivel = 4.50; 
+
+    // Calcula os litros consumidos
+    $litrosConsumidos = $distancia / $consumoPorLitro;
+
+    // Calcula o custo total da viagem
+    $custoTotalViagem = $litrosConsumidos * $precoCombustivel;
+
+    // Exibe os resultados
+    echo "Distância da viagem: " . $distancia . " km<br>";
+    echo "Consumo por litro: " . $consumoPorLitro . " km/l<br>";
+    echo "Preço do combustível: R$ " . $precoCombustivel . " por litro<br>";
+    echo "Litros consumidos: " . $litrosConsumidos. " litros<br>";
+    echo "Custo total da viagem: R$ " . $custoTotalViagem;
+?>
