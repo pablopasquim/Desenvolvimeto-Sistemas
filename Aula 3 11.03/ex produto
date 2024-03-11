@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="p1">Informe um produto 1:</label>
+        <input name="p1" id="p1" type="text">
+        
+
+        <label for="preco1">Informe o Preço 1:</label>
+        <input name="preco1" id="preco1" type="text">
+        
+
+        <label for="p2">Informe um produto 2:</label>
+        <input name="p2" id="p2" type="text">
+        
+
+        <label for="preco2">Informe o Preço 2:</label>
+        <input name="preco2" id="preco2" type="text">
+        
+        
+        <label for="p3">Informe um produto 3:</label>
+        <input name="p3" id="p3" type="text">
+
+        <label for="preco3">Informe o Preço 3:</label>
+        <input name="preco3" id="preco3" type="text">
+        
+        
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
+
+<?php
+
+
+
+    $prod1 = $_GET['p1'];
+    $prod2 = $_GET['p2'];
+    $prod3 = $_GET['p3'];
+    $preço1 = $_GET['preco1'];
+    $preço2 = $_GET['preco2'];
+    $preço3 = $_GET['preco3'];
+
+    echo "<br>Produto 1: " . $prod1;
+    echo "<br> Preço do produto 1:  " . $preço1;
+    
+    echo "<br><br>Produto 2" . $prod2;
+    echo "<br> Preço do produto 2: " . $preço2;
+    
+    echo "<br><br>Produto 3: " . $prod3;
+    echo "<br> Preço do produto 3:  " . $preço3;
+
+    if($preço1 < $preço2 && $preço1 < $preço3){
+        echo "<br>O melhor produto a ser comprado é o: " . $prod1;
+    } else if($preço2 < $preço1 && $preço2 < $preço3){
+        echo "<br>O melhor produto a ser comprado é o: " . $prod2;
+    } else if($preço3 < $preço1 && $preço3 < $preço2){
+        echo "<br>O melhor produto a ser comprado é o: " . $prod3;
+    }
+?>
