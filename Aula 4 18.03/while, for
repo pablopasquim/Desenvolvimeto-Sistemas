@@ -1,0 +1,29 @@
+<?php
+
+    echo "<h2> AULA 4 - FOR <h2>";
+
+    for($var = 0; $var < 10; $var++){
+        echo "Viva :) - {$var} <br>";
+    }
+
+    echo "<h3>WHILE<h3>";
+
+    echo "de 0 a 50 - 2 em 2<br><br>";
+    $a = 0;
+    while ($a <= 50){
+        
+        echo "{$a}  ";
+        $a += 2;
+
+
+    }
+
+    $numero = 20;
+
+    do{
+        echo "Numero: {$numero} <br>";
+        $numero += 3;
+    } while($numero < 85);
+
+
+?>
