@@ -1,12 +1,12 @@
 <?php
 
-    echo "<h2> AULA 4 - FOR <h2>";
+    echo "<h3> AULA 4 - FOR <h3>";
 
     for($var = 0; $var < 10; $var++){
         echo "Viva :) - {$var} <br>";
     }
 
-    echo "<h3>WHILE<h3>";
+    echo "<h3>WHILE</h3>";
 
     echo "de 0 a 50 - 2 em 2<br><br>";
     $a = 0;
@@ -20,10 +20,57 @@
 
     $numero = 20;
 
+    echo "<br><br>";
+
     do{
         echo "Numero: {$numero} <br>";
         $numero += 3;
     } while($numero < 85);
 
+    
+
+    echo "<h3>LISTA E ARRAY</h3>";
+
+    $comida = array("Panqueca", "Torta", "Pamonha", "Chocolate");
+    echo $comida[2];
+    echo "<br>";
+
+    $comida[3] = "Arroz";
+    $comida[1] = 50.3;
+    echo print_r($comida);
+
+    $totalComida = count($comida);
+    echo "<br> {$totalComida}";
+    
+    echo "<br><br> Abrir Lista de Compra   ";
+
+    for($i=0;$i < $totalComida; $i++){
+        echo "<li>Item: {$i}:  = " . $comida[$i];
+    }
+
+    foreach($comida as $comidas){
+        echo "<li>Item: - " . $comidas;
+    }
+
+
+    echo "<h3> Array com indice em String </h3>";
+    $pessos = array("nome" => "Pablo", "Idade" => 19);
+    echo print_r($pessoas);
+
+    foreach($pessos as $key => $value){
+        echo "<li> {$key} - {$value}";
+    }
+
+    echo "<h3> Array de arrays </h3>";
+    $varias_pessoas = array(
+    "pessoa1" => array("nome" => "Alexandre", "idade" => 16),
+    "pessoa2" => array("nome" => "Esther", "idade" => 19),
+    "pessoa3" => array("nome" => "Julia", "idade" => 25)
+);
+
+    foreach($varias_pessoas as $uma_pessoa){
+        echo "<br><br>";
+        echo print_r($uma_pessoa);
+    }
 
 ?>
