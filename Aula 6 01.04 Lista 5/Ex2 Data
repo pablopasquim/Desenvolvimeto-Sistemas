@@ -1,0 +1,21 @@
+<?php
+function dataPorExtenso($data) {
+    $partes = explode('/', $data);
+    $meses = array(
+        1 => 'Janeiro', 2 => 'Fevereiro', 3 => 'Março', 4 => 'Abril',
+        5 => 'Maio', 6 => 'Junho', 7 => 'Julho', 8 => 'Agosto',
+        9 => 'Setembro', 10 => 'Outubro', 11 => 'Novembro', 12 => 'Dezembro'
+    );
+    $dia = $partes[0];
+    $mes = $meses[(int)$partes[1]];
+    $ano = $partes[2];
+    $dataPorExtenso = "$dia de $mes de $ano";
+    return $dataPorExtenso;
+}
+
+
+$dataEntrada = "10/02/2023";
+$dataExtenso = dataPorExtenso($dataEntrada);
+echo "Para a data $dataEntrada, a data por extenso é: $dataExtenso";
+?>
+
