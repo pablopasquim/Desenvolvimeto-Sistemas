@@ -1,0 +1,14 @@
+<?php
+function soma($num1, $num2, $num3) {
+    $soma = $num1 + $num2 + $num3;
+    return $soma;
+}
+
+
+$argumento1 = 5;
+$argumento2 = 10;
+$argumento3 = 15;
+
+$resultado = soma($argumento1, $argumento2, $argumento3);
+echo "A soma de $argumento1, $argumento2 e $argumento3 é igual a $resultado.";
+?>
