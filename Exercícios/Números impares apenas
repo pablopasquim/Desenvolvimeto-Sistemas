@@ -1,0 +1,11 @@
+<?php
+
+  // Imprimir 50 números
+    for ($i = 0; $i <= 50; $i++) {
+  // Verificar se são impares ou não
+        if ($i % 2 != 0) {
+  //Printar números
+            echo "\n" . $i;
+        }
+    }
+?>
